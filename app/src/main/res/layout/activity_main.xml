@@ -87,5 +87,14 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/welcome" />
 
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="402dp"
+        android:layout_height="214dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.444"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
