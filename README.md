@@ -1,12 +1,10 @@
 # LearnMalayalam
-##Overview
+## Overview <br>
 Creating an App to learn malayalam. The goal of the project was to enhance learning and provide an enjoyable experience to learning the language Malayalam. The app will help new learners and people who are not grown accustomed to writing and reading malayalam to be capabable of learning the language with ease.
 
 ## Features
 - There is quizes for consonants, independent vowel and dependent vowels which will slow you into memorising the letters in malayalm. This will allow you to test your knowledge.
-<br>
 - The level mechanism allows you to incoperate the teachings to memory.
-<br>
 - The flashcards provide an active learning technique that will improve your recall ability.
 
 ## Milestones
