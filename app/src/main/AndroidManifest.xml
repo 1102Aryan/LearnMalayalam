@@ -13,6 +13,9 @@
         android:theme="@style/Theme.LearnMalayalam"
         tools:targetApi="31">
         <activity
+            android:name=".Vowel_level"
+            android:exported="false" />
+        <activity
             android:name=".SplashScreen"
             android:exported="true" />
         <activity

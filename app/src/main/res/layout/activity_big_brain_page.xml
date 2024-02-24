@@ -9,6 +9,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="🧠"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:id="@+id/points"
         android:textStyle="bold"
         android:text="Brain Points: "
@@ -35,7 +44,7 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="180dp"
         android:background="@drawable/prizes"
-        android:text="Watch Video" />
+        android:text="Watch Video"/>
 
     <androidx.appcompat.widget.AppCompatButton
         android:layout_width="115dp"

@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:onClick="bigBrainPage"
         android:shadowColor="@color/black"
-        android:text="  Big Brain"
+        android:text="🧠 Big Brain"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.517"
@@ -46,6 +46,7 @@
         app:layout_constraintHorizontal_bias="0.363"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+
         app:layout_constraintVertical_bias="0.023"
         app:srcCompat="@mipmap/learnmalayalamlogo" />
 
@@ -61,6 +62,18 @@
         app:layout_constraintHorizontal_bias="0.042"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <EditText
+        android:layout_width="250dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="5dp"
+        android:text="User"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/welcome"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.147" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -79,8 +92,8 @@
         android:layout_height="50dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/round"
-        android:text="Streak"
-        android:textSize="10dp"
+        android:text="🔥"
+        android:textSize="25sp"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.03"
@@ -91,6 +104,7 @@
         android:layout_width="402dp"
         android:layout_height="214dp"
         android:layout_marginTop="24dp"
+        android:id="@+id/game"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.444"
         app:layout_constraintStart_toStartOf="parent"
