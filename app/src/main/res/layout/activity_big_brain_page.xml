@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".bigBrainPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🧠"
+        android:textSize="50dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="30dp"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/points"
+        android:textStyle="bold"
+        android:text="Brain Points: "
+        android:textSize="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Big brain points allows you to continue to the next mission."
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="85dp"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="426dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/rectangle" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="107dp"
+        android:layout_height="351dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/prizes"
+        android:text="Watch Video"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="115dp"
+        android:layout_height="350dp"
+        android:layout_marginLeft="118dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/nextprize"
+        android:gravity="bottom|center"
+        android:text="£1.99"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="108dp"
+        android:layout_height="349dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/finalprize"
+        android:gravity="bottom|center"
+        android:text="£4.99"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:background="@drawable/round"
+        android:text="Donate 😢"/>
+
+
+
+</RelativeLayout>
